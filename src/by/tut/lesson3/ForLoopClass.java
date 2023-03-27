@@ -1,5 +1,7 @@
 package by.tut.lesson3;
 
+import java.util.Random;
+
 public class ForLoopClass {
     public static void main(String[] args) {
 //        for (int counter = 0; counter < 100; counter++) {
@@ -26,7 +28,16 @@ public class ForLoopClass {
             do {
                 System.out.println("res" + res++);
                 res += 1;
-            }while (res<100);
+            } while (res < 100);
+        }
+        int count = 100;
+        while (count > 0) {
+            System.out.println("count:" + count);
+            count -= 2;
+            if (count % 25 == 0) {
+                break;
+            }
+
         }
     }
 }
