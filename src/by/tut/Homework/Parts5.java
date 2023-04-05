@@ -8,7 +8,7 @@ public class Parts5 {
         float[] arr = new float[n];
         for (int i = 0; i < arr.length; i++) {
             Random random = new Random();
-            arr[i] = random.nextInt(10);;
+            arr[i] = random.nextInt(10);
         }
         float max = arr[0];
         float min = arr[0];
@@ -22,6 +22,6 @@ public class Parts5 {
         }
         System.out.println("max=" + max);
         System.out.println("min=" + min);
-        System.out.println("avf=" + avg);
+        System.out.println("avg=" + avg);
     }
 }
