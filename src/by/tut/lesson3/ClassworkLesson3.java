@@ -30,23 +30,32 @@ public class ClassworkLesson3 {
         System.out.println(result);
         System.out.println("Enter the month number");
         int month = scanner.nextInt();
-        switch (month){
-            case 12: case 1: case 2:
+        switch (month) {
+            case 12:
+            case 1:
+            case 2:
                 System.out.println("this is winter");
                 break;
-            case 3: case 4: case 5:
+            case 3:
+            case 4:
+            case 5:
                 System.out.println("this is spring");
                 break;
-            case 6: case 7: case 8:
+            case 6:
+            case 7:
+            case 8:
                 System.out.println("this is summmer");
                 break;
-            case 9: case 10: case 11:
+            case 9:
+            case 10:
+            case 11:
                 System.out.println("this is autum");
                 break;
             default:
                 System.out.println("this is month number");
 
         }
+
     }
 }
 
