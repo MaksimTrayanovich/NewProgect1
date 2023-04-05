@@ -10,7 +10,7 @@ public class Parts4 {
         Scanner in = new Scanner(System.in);
         System.out.println("Massive size:");
         for (int element : a) {
-            System.out.println(a[i]  + " - ");
+            System.out.println(" arr - "+a[i]);
             i++;
         }
         System.out.println(Arrays.toString(a));
