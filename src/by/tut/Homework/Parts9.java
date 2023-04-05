@@ -15,6 +15,6 @@ public class Parts9 {
             }
         }
         System.out.println(Arrays.deepToString(arr));
-        System.out.println(res);
+        System.out.println("Summ-" + res);
     }
 }
