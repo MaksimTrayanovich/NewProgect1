@@ -51,6 +51,15 @@ public class CreditCart {
         System.out.println("drawMoney");
     }
 
+    @Override
+    public String toString() {
+        return "CreditCart{" +
+                "cartNumber=" + cartNumber +
+                ", balance=" + balance +
+                ", totalBalance=" + totalBalance +
+                '}';
+    }
+
     public void changeBalance(int changeBalance) {
         totalBalance = changeBalance + totalBalance;
         if (totalBalance <= 0) {
