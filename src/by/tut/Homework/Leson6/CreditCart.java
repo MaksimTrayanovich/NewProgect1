@@ -1,7 +1,7 @@
 package by.tut.Homework.Leson6;
 
 public class CreditCart {
-    public int cartNumber;
+    public int cartNumber = 2121;
     public int balance = 0;
 
     public int totalBalance;
@@ -54,7 +54,7 @@ public class CreditCart {
     public void changeBalance(int changeBalance) {
         totalBalance = changeBalance + totalBalance;
         if (totalBalance <= 0) {
-            System.out.println("Insufficient funds" + totalBalance);
+            System.out.println("Error");
         } else {
             System.out.println("Successful " + totalBalance);
         }
